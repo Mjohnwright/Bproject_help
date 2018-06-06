@@ -1,0 +1,21 @@
+<h1>Event Listings</h1>
+
+<div class="select-event">
+  <ul>
+    {{#each campaignevent}}
+      <h2>{{campaignevent.event_title}}</h2>
+      <h2>{{campaignevent.organization_name}}</h2>
+      <h3>{{campaignevent.organizer_first_name}}</h3>
+      <h3>{{campaignevent.organizer_last_name}}</h3>
+      <h4>{{campaignevent.street_address}}</h4>
+      <h4>{{campaignevent.city}}</h4>
+      <h4>{{campaignevent.state}}</h4>
+      <h4>{{campaignevent.zip_code}}</h4>
+      <h4>{{campaignevent.phone_numnber}}</h4>
+      <p>{{campaignevent.event_description}}</p>
+      <btn id="select">Sign Up</btn>
+    {{/each}}
+  </ul>
+
+
+</div>
